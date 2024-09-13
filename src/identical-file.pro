@@ -34,3 +34,10 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 
+target.path = $$PREFIX/bin
+desktop.files = identical.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = identical.png
+
+INSTALLS += target desktop icons

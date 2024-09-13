@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=identical-file
+Name=identical-file
+Name[zh_CN]=identical-file
+Icon=identical
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=identical-file
+Version=1.0
